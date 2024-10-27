@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="inputPc" type="id" />
+    <item name="inputSigma1" type="id" />
+    <item name="inputSigma2" type="id" />
+    <item name="inputV" type="id" />
+    <item name="calculateButton" type="id" />
+    <item name="resultText" type="id" />
+</resources>

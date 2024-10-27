@@ -1,0 +1,11 @@
+<!-- res/values/strings.xml -->
+<resources>
+    <string name="app_name">Калькулятор Прибутку Сонячної Станції</string>
+    <string name="hint_input_pc">Введіть Середньодобову Потужність (Pc)</string>
+    <string name="hint_input_sigma1">Введіть Відхилення σ1</string>
+    <string name="hint_input_sigma2">Введіть Відхилення σ2</string>
+    <string name="hint_input_v">Введіть Вартість електроенергії (V)</string>
+    <string name="button_calculate">Розрахувати Прибуток</string>
+    <string name="result_placeholder">Результат з`явиться тут</string>
+    <string name="calculated_profit">Розрахований Прибуток: %1$.2f грн</string>
+</resources>
