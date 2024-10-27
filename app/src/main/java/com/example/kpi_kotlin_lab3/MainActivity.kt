@@ -29,18 +29,18 @@ class MainActivity : AppCompatActivity() {
 
             // Виклик функції для обчислення прибутку
             val profit = calculateProfit(pc, sigma1, sigma2, v)
-            resultText.text = "Розрахований Прибуток: $profit грн"
+            resultText.text = "Розрахований Прибуток: ${String.format("%.2f", profit)} тис. грн"
         }
     }
 
     // Функція для розрахунку прибутку за формулами
     private fun calculateProfit(pc: Double, sigma1: Double, sigma2: Double, v: Double): Double {
         // Обчислення на основі прикладу
-        val deltaW1 = 0.2 // Припустимо 20% на основі прикладу
+        val deltaW1 = 0.2
         val W1 = pc * 24 * deltaW1
         val P1 = W1 * v
 
-        val deltaW2 = 0.68 // Припустимо 68% на основі прикладу
+        val deltaW2 = 0.68
         val W3 = pc * 24 * deltaW2
         val P2 = W3 * v
 
